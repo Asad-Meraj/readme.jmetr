@@ -27,7 +27,7 @@ JMeter is a load testing tool, which works at protocol layer. It mainly supports
 
 
 ### Jmeter Requirements
-Although there are no specific requirements to start working on Jmeter other than the need of having JAVA installed on your device. Once you have the JAVA requirement fullfilled you can easily setup Jmeter in your device for free.
+Although there are no specific requirements to start working on Jmeter other than the need of having JAVA installed on your device. Once you have the JAVA 8 or latest with 64 bit operating system requirement fullfilled you can easily setup Jmeter in your device for free.
 
 ### Pros
 ·         Very light weight tool and can be installed easily
@@ -40,5 +40,21 @@ Although there are no specific requirements to start working on Jmeter other tha
 ·         Consumption of memory is high in GUI Mode and performance testing like Load, Stress and Endurance with high user load are preferred to run in NON-GUI mode
 ·         Complex scenario cannot be done using JMeter thread group
 ·         Recording in this is complex, as we need to setup the proxy manually
-
 ·         It supports only Java coding for custom coding
+
+Jmeter uses automated scripting and manual scripting to test applications. Furthermore, you can use external softwares to record actions being performed and later export them into the Jmeter for further testing of the application.
+
+### Updates
+There have been numerous updates in the software and with every new version being released, They focus on resolving bugs encountered in the last update. Latest update includes 5.2.1 released on 2019-11-24.
+
+### Tutorials and documentation
+For tutorials there are many youtube channels that teaches the use of Jmeter till advance level. One of them is 
+
+(https://www.youtube.com/watch?v=8loLHbhfyh0&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c&index=3)
+
+The official Documentation can be found here
+
+https://jmeter.apache.org/usermanual/index.html
+
+
+
