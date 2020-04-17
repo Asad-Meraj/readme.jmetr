@@ -57,4 +57,43 @@ The official Documentation can be found here
 https://jmeter.apache.org/usermanual/index.html
 
 
+#### Usage examples
+
+Step 1) Add Thread Group
+
+Start JMeter
+
+Select Test Plan on the tree
+
+Add Thread Group
+
+Right click on the "Test Plan" and add a new thread group: Add -> Threads (Users) -> Thread Group
+
+In the Thread Group control panel, enter Thread Properties.
+
+Number of Threads: 100 (Number of users connects to the target website: 100)
+Loop Count: 10 (Number of time to execute testing)
+Ramp-Up Period: 100
+
+Step 2) Adding JMeter elements
+
+Now we determine what JMeter elements in this test. The elements are
+
+HTTP request Default
+
+This element can be added by right-clicking on the Thread Group and selecting: Add -> Config Element -> HTTP Request Defaults.
+
+In the HTTP Request Defaults control panel, enter the Website name under test (www.facebook.com)
+
+Right-click on Thread Group and select: Add -> Sampler -> HTTP Request.
+
+In HTTP Request Control Panel, the Path field indicates which URL request you want to send to facebook server.
+
+Step 3) Adding Graph result
+
+JMeter can show the test result in many formats so lets take example of Graph format.
+
+Right click Test Plan, Add -> Listener -> Graph Results
+
+Press the Run button (Ctrl + R) on the Toolbar to start the software testing process. You will see the test result display on Graph in the real time.
 
