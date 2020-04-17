@@ -24,3 +24,20 @@ JMeter is a load testing tool, which works at protocol layer. It mainly supports
 --> Data analysis and visualization plugins allow great extensibility as well as personalization.
 --> Functions can be used to provide dynamic input to a test or provide data manipulation.
 --> Easy Continuous Integration through 3rd party Open Source libraries for Maven, Gradle and Jenkins.
+
+
+### Jmeter Requirements
+Although there are no specific requirements to start working on Jmeter other than the need of having JAVA installed on your device. Once you have the JAVA requirement fullfilled you can easily setup Jmeter in your device for free.
+
+### Pros
+·         Very light weight tool and can be installed easily
+·         As it is an open source tool you need not to be worried on license
+·         There are multiple plugins that are available in the market and can be installed easily according to the requirement
+·         Caching and offline analysis/replaying of test results
+
+### Cons
+·         It can be used only on web applications
+·         Consumption of memory is high in GUI Mode and performance testing like Load, Stress and Endurance with high user load are preferred to run in NON-GUI mode
+·         Complex scenario cannot be done using JMeter thread group
+·         Recording in this is complex, as we need to setup the proxy manually
+·         It supports only Java coding for custom coding
