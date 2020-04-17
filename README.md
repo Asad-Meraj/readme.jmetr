@@ -57,7 +57,7 @@ The official Documentation can be found here
 https://jmeter.apache.org/usermanual/index.html
 
 
-#### Usage examples
+## Usage examples
 
 Step 1) Add Thread Group
 
@@ -97,3 +97,4 @@ Right click Test Plan, Add -> Listener -> Graph Results
 
 Press the Run button (Ctrl + R) on the Toolbar to start the software testing process. You will see the test result display on Graph in the real time.
 
+## Part 2. Case study
