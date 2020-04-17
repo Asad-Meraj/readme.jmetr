@@ -40,4 +40,5 @@ Although there are no specific requirements to start working on Jmeter other tha
 ·         Consumption of memory is high in GUI Mode and performance testing like Load, Stress and Endurance with high user load are preferred to run in NON-GUI mode
 ·         Complex scenario cannot be done using JMeter thread group
 ·         Recording in this is complex, as we need to setup the proxy manually
+
 ·         It supports only Java coding for custom coding
