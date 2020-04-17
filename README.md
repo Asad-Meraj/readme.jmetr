@@ -98,3 +98,31 @@ Right click Test Plan, Add -> Listener -> Graph Results
 Press the Run button (Ctrl + R) on the Toolbar to start the software testing process. You will see the test result display on Graph in the real time.
 
 ## Part 2. Case study
+
+#### Find a software/lib that uses the testing tool (YTT = Your Testing Tool)
+
+Bonobo (bonobolabs.com)
+
+#### What is the purpose of the sw/lib, i.e. what does it aim to do for users/developers?
+
+They strategise, design and build digital products. They’re a small team with a Venn-diagram of skills who work hard and love what they do. Their aim is to make remarkable things and They’ve surrounded themselves with hand-picked partners from around the world who are the best in their field.
+
+#### What are the key technologies used to develop the lib?
+ 
+I have been working on finding this information
+ 
+#### What kind of automated testing tools are used to test the sw/lib (including but possibly more than YTT) and what are their key features?
+
+The automated testing tools used are Badboys. They haven't mentioned detailed approach on this. The key feature for this is that it record actions that user wants to perform testing on and are exported directly to Jmeter.
+
+#### Which features of the automated testing tools are currently used by the test suite
+
+First JMeter can be integrated into selenium using the plugins, So Selenium you can use as a automation tool for your testing needs. But let me tell you the why selenium is better and why you should not select only JMeter.
+
+The Apache JMeter is pure Java open source software, designed to load test functional behavior and measure performance. You can use JMeter to analyze and measure the performance of web application or variety of services. JMeter originally is used for testing Web or FTP application. It supports many testing strategies such as Load Testing, Distributed Testing, and Functional Testing
+
+#### Which features of the automated testing tools are Not currently used by the test suite
+This only uses the features for Load Testing, Distributed Testing, Performance and Functional Testing. It does not support any other kind of testing other than these.
+
+## Part 3
+#### I have not received my answers from the respective testers and still following up to hear from them.
