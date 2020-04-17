@@ -8,22 +8,39 @@ JMeter is a load testing tool, which works at protocol layer. It mainly supports
 
 ### JMeter Features 
 --> Ability to load and performance test many different applications/server/protocol types:
+
 --> Web - HTTP, HTTPS (Java, NodeJS, PHP, ASP.NET, …)
+
 --> SOAP / REST Webservices
+
 --> FTP
+
 --> Database via JDBC
+
 --> LDAP
+
 --> Message-oriented middleware (MOM) via JMS
+
 --> Full featured Test IDE that allows fast Test Plan recording (from Browsers or native applications), building and debugging.
+
 --> CLI mode (Command-line mode (previously called Non GUI) / headless mode) to load test from any Java compatible OS (Linux, Windows, Mac OSX, …) https://jmeter.apache.org/usermanual/get-started.html#non_gui
+
 --> Full multi-threading framework allows concurrent sampling by many threads and simultaneous sampling of different functions by separate thread groups.
+
 --> Highly Extensible core:
+
 --> Pluggable Samplers allow unlimited testing capabilities.
+
 --> Scriptable Samplers (JSR223-compatible languages like Groovy and BeanShell)
+
 --> Several load statistics may be chosen with pluggable timers.
+
 --> Data analysis and visualization plugins allow great extensibility as well as personalization.
+
 --> Functions can be used to provide dynamic input to a test or provide data manipulation.
+
 --> Easy Continuous Integration through 3rd party Open Source libraries for Maven, Gradle and Jenkins.
+
 
 
 ### Jmeter Requirements
@@ -31,15 +48,22 @@ Although there are no specific requirements to start working on Jmeter other tha
 
 ### Pros
 ·         Very light weight tool and can be installed easily
+
 ·         As it is an open source tool you need not to be worried on license
+
 ·         There are multiple plugins that are available in the market and can be installed easily according to the requirement
+
 ·         Caching and offline analysis/replaying of test results
 
 ### Cons
 ·         It can be used only on web applications
+
 ·         Consumption of memory is high in GUI Mode and performance testing like Load, Stress and Endurance with high user load are preferred to run in NON-GUI mode
+
 ·         Complex scenario cannot be done using JMeter thread group
+
 ·         Recording in this is complex, as we need to setup the proxy manually
+
 ·         It supports only Java coding for custom coding
 
 Jmeter uses automated scripting and manual scripting to test applications. Furthermore, you can use external softwares to record actions being performed and later export them into the Jmeter for further testing of the application.
